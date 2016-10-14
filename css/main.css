@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color:
+  background-color: #dbd6d0
 }
 
 *, *::before, *::after {
@@ -9,14 +9,27 @@ html {
 
 header {
   background-color: #79756f;
-  border-color: #595652;
+  border: #595652;
+  border-style: solid;
+  border-right-style: none;
+  border-left-style: none;
+  padding: .6em;
+
 }
 
 h1 {
-  color:
-  font:
+  color: #fff;
+  text-align: center;
+  font-family: 'Bevan', cursive;
 }
 
-nav {
-  color:
+nav li {
+  display: inline-block;
+  margin:0.3em;
+  padding: 0.5em 0.75em;
+  background-color: #713837;
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: sans-serif;
 }
