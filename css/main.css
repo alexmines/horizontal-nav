@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  background-color:
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #79756f;
+  border-color: #595652;
+}
+
+h1 {
+  color:
+  font:
+}
+
+nav {
+  color:
+}
