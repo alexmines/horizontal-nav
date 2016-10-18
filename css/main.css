@@ -9,31 +9,46 @@ html {
 
 header {
   background-color: #79756f;
-  border: #595652;
-  border-style: solid;
-  border-right-style: none;
-  border-left-style: none;
-  padding: .6em;
+  border: 3px solid #595652;
+  border-right: none;
+  border-left: none;
   line-height: 0.5rem;
+}
 
+body {
+  font-family: sans-serif;
+  margin: 0;
+  margin-bottom: 0.3em;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #713837;
 }
 
 h1 {
   color: #fff;
   text-align: center;
-  font-family: "Bevan", cursive;
+  font-family: "Bevan", serif;
 }
 
 nav li {
   display: inline-block;
   text-decoration: none;
-  margin:0.3em;
   max-width: 20em;
   padding: 0.75em;
-  background-color: #713837;
   border-radius: 3px;
   text-align: center;
   color: #fff;
   list-style-type: none;
-  font-family: sans-serif;
+  background-color: #713837;
+}
+
+a:hover {
+  color: #f33;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 8px;
+  color: #fff;
 }
