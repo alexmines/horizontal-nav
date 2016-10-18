@@ -13,6 +13,7 @@ header {
   border-right: none;
   border-left: none;
   line-height: 0.5rem;
+  text-align: center;
 }
 
 body {
@@ -33,11 +34,12 @@ h1 {
 
 nav li {
   display: inline-block;
+  margin:0.3em;
   text-decoration: none;
+  text-align: center;
   max-width: 20em;
   padding: 0.75em;
   border-radius: 3px;
-  text-align: center;
   color: #fff;
   list-style-type: none;
   background-color: #713837;
